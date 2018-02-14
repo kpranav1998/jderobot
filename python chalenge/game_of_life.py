@@ -13,7 +13,7 @@ updateInterval=50
  
 def randomGrid(N,M):
  
-    """returns a grid of NxN random values"""
+    """returns a grid of NxM random values"""
     return np.random.choice(vals, N*M, p=[0.2, 0.8]).reshape(N, M)
 def update_grid(frameNum, img, grid, N,M):
 
